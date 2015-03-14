@@ -1,2 +1,2 @@
-# connor
-Connor's personal website; Made by the gorgeous @loganmcansh.
+# William
+William's personal website; Made by the gorgeous @loganmcansh.
