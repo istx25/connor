@@ -8,10 +8,17 @@ body {
   color: rgba(0, 0, 0, 0.4);
   -webkit-font-smoothing: antialiased;
   font-size: 12pt; }
-  body h1, body h2, body h3, body h4, body h5, body h6, body p, body a {
+  body h1, body h2, body h3, body h4, body h5, body h6, body p {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.4);
     text-decoration: none; }
+  body a {
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none; }
+    body a:hover {
+      color: #55acee;
+      text-decoration: none; }
 
 .structure {
   padding-top: 80px;
@@ -36,6 +43,9 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
+.description {
+  font-size: 19px !important; }
+
 .profile {
   width: 200px;
   height: 200px;
@@ -48,7 +58,17 @@ body {
   border-radius: 100px; }
 
 h1 {
-  font-size: 300%; }
+  font-size: 300%;
+  margin-bottom: 10px; }
+
+hr {
+  border: none;
+  background: #EEEBEB;
+  height: 1.5px;
+  width: 25%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  opacity: 0.4; }
 
 footer {
   font-size: 10px; }
