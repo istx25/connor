@@ -114,7 +114,7 @@ footer {
     padding: 5px;
     font-size: 0.75em; }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 414px) {
   .structure {
     padding-top: 10px; }
 
@@ -122,4 +122,7 @@ footer {
     -webkit-flex-flow: column;
         -ms-flex-flow: column;
             flex-flow: column;
-    width: 400px; } }
+    width: 400px; }
+
+  .fa {
+    margin: 15px; } }
